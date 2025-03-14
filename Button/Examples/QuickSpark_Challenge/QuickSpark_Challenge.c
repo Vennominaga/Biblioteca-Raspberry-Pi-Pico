@@ -1,3 +1,6 @@
+/*-------------DOCUMENTAÇÃO ---------------*/
+
+
 #include "inc/ButtonPi.h"
 #include "inc/gpio_irq_manager.h"
 #include "pico/stdlib.h"
