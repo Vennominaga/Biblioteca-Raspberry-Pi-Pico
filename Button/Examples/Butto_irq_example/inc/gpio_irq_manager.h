@@ -1,3 +1,5 @@
+/*--------------DOCUMENTAÇÃO------------------*/
+
 // gpio_irq_manager.h
 #ifndef GPIO_IRQ_MANAGER_H
 #define GPIO_IRQ_MANAGER_H
