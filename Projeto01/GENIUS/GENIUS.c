@@ -6,6 +6,27 @@
 #include <time.h>
 
 /******************************
+ * Documentação do Programa
+ ******************************/
+
+/**
+ * @file main.c
+ * @brief Jogo de Memória com Sequência de Cores
+ * 
+ * Este programa implementa um jogo de memória onde o jogador deve repetir uma sequência de cores
+ * gerada aleatoriamente. O jogo utiliza LEDs para exibir as cores, um joystick para selecionar
+ * a cor desejada e botões para confirmar a entrada. O jogador avança para o próximo nível ao
+ * acertar a sequência, e o jogo termina em caso de erro.
+ * 
+ * Funcionalidades:
+ * 1. Geração de sequências aleatórias de cores.
+ * 2. Exibição da sequência usando LEDs e sons.
+ * 3. Entrada do jogador via joystick e botões.
+ * 4. Verificação da entrada do jogador e progressão do jogo.
+ * 5. Reinício do jogo após o fim.
+ */
+
+/******************************
  * Definições de pinos
  ******************************/
 
