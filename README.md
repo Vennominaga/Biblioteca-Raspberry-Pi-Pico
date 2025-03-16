@@ -1,8 +1,8 @@
 # README - Biblioteca de Periféricos para Raspberry Pi Pico
 
-Este repositório contém uma coleção de bibliotecas desenvolvidas para facilitar a integração e o controle de periféricos comuns no Raspberry Pi Pico. As bibliotecas foram projetadas para serem simples de usar, eficientes e modulares, permitindo que desenvolvedores foquem na lógica de seus projetos sem se preocupar com detalhes de hardware.
+Este repositório contém uma coleção de bibliotecas desenvolvidas para facilitar a integração e o controle de periféricos comuns no Raspberry Pi Pico. As bibliotecas foram projetadas para serem simples de usar, eficientes e modulares, permitindo que desenvolvedores foquem na lógica de seus projetos sem se preocupar com detalhes de baixo nível da placa.
 
-As bibliotecas disponíveis são:
+## 📦 Bibliotecas Disponíveis
 
 1. **ButtonPi**: Para gerenciamento de botões com suporte a interrupções e debounce.
 2. **gpio_irq_manager**: Para gerenciamento modular de interrupções de GPIO.
@@ -24,7 +24,7 @@ A biblioteca **ButtonPi** facilita o gerenciamento de botões no Raspberry Pi Pi
 - Debounce integrado para evitar ruídos.
 
 ### Documentação:
-- [Documentação detalhada da ButtonPi](#)
+- [Documentação detalhada da ButtonPi](https://github.com/Vennominaga/Biblioteca-Raspberry-Pi-Pico/tree/master/Button/Documentation)
 
 ### Exemplo de Uso:
 ```c
@@ -87,6 +87,10 @@ A biblioteca **JoystickPi** simplifica a leitura de joysticks analógicos e bot�
 - Leitura dos eixos X e Y e do botão.
 - Mapeamento de valores analógicos para intervalos personalizados.
 
+  ### Documentação:
+- [Documentação detalhada da JoystickPi](https://github.com/Vennominaga/Biblioteca-Raspberry-Pi-Pico/tree/master/Joystick/Documentation)
+
+
 
 
 ### Exemplo de Uso:
@@ -116,6 +120,10 @@ A biblioteca **BuzzerPi** facilita o controle de buzzers e a geração de tons e
 - Efeitos sonoros como "beeps" repetidos.
 
 
+ ### Documentação:
+- [Documentação detalhada da BuzzerPi](https://github.com/Vennominaga/Biblioteca-Raspberry-Pi-Pico/tree/master/Buzzer/Documentation)
+
+
 
 ### Exemplo de Uso:
 ```c
@@ -138,7 +146,7 @@ int main() {
 
 1. **Clone o Repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/raspberry-pico-peripherals.git
+   git clone https://github.com/Vennominaga/Biblioteca-Raspberry-Pi-Pico
    ```
 
 2. **Inclua as Bibliotecas no Seu Projeto:**
