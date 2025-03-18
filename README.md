@@ -1,6 +1,3 @@
-Aqui está a versão corrigida e melhorada do texto, com as alterações solicitadas:
-
----
 
 # Biblioteca BitDogLab para Raspberry Pi Pico
 
