@@ -55,9 +55,12 @@ Na pasta **projetos01**, você encontrará projetos que combinam várias bibliot
 
 1. **Leia a documentação**: Antes de começar, é importante entender como cada periférico funciona e como a biblioteca foi estruturada.
 2. **Clone o repositório**: Faça um `git clone` do projeto para o seu ambiente local.
-3. **Inclua os arquivos necessários**: Adicione todos os cabeçalhos (`.h`) e códigos fonte (`.c`) ao seu projeto original.
-4. **Declarações e inclusões**: Faça as declarações necessárias no seu código, incluindo os cabeçalhos das bibliotecas.
-5. **Configuração do CMake**: Para incluir bibliotecas externas, adicione ao seu `CMakeLists.txt`:
+   ```bash
+   git clone https://github.com/Vennominaga/Biblioteca-Raspberry-Pi-Pico
+   ```
+4. **Inclua os arquivos necessários**: Adicione todos os cabeçalhos (`.h`) e códigos fonte (`.c`) ao seu projeto original.
+5. **Declarações e inclusões**: Faça as declarações necessárias no seu código, incluindo os cabeçalhos das bibliotecas.
+6. **Configuração do CMake**: Para incluir bibliotecas externas, adicione ao seu `CMakeLists.txt`:
     por exemplo para adicionar a Biblioteca BuzzerPi localizada na pasta src
    ```cmake
    add_executable(play_music_example01 play_music_example01.c src/BuzzerPi.c)
