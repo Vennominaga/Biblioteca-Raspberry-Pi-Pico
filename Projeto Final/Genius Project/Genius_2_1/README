@@ -1,29 +1,37 @@
-# GENIUS GAME
+# Genius Game
 
-Uma breve descrição sobre o que o seu projeto faz.
+## 📌 Visão Geral
+O **Genius Game** é um desafio interativo de memória que combina estímulos visuais e sonoros para testar suas habilidades cognitivas. Inspirado no clássico jogo de sequências, esta versão moderna utiliza tecnologia embarcada para criar uma experiência imersiva, onde você deve:
 
-## Índice
+- Memorizar padrões luminosos (através de matriz RGB)
+- Reconhecer sequências sonoras (via buzzer)
+- Reproduzir com precisão as combinações apresentadas
 
-- [Sobre](#sobre)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
+## 🎮 Como Funciona
+### Componentes Integrados:
+- **Matriz LED RGB**: Gera padrões coloridos dinâmicos
+- **Buzzer**: Emite tons musicais sincronizados
+- **Display OLED**: Exibe pontuação e feedback visual
+- **Joystick/Controles**: Para interação do jogador
 
-## Sobre
+### Mecânica Principal:
+1. O sistema gera uma sequência aleatória (luzes + sons)
+2. O jogador deve reproduzir exatamente a mesma ordem
+3. A cada rodada bem-sucedida:
+   - A sequência aumenta em 1 item
+   - A velocidade de exibição acelera progressivamente
+4. O jogo continua até ocorrer um erro, registrando o recorde
 
-O Genius Game é um jogo interativo projetado para desafiar a memória 
-  e as habilidades cognitivas dos jogadores. Nele, os participantes 
-  devem memorizar e reproduzir sequências cada vez mais longas e 
-  complexas de cores e sons. O jogo utiliza uma matriz de LEDs RGB 
-  para criar padrões de cores visuais e um buzzer que emite sons em 
-  uma ordem específica, enquanto o display OLED fornece informações 
-  de navegação e instruções ao jogador. O objetivo principal é repetir 
-  corretamente a sequência apresentada, e a dificuldade aumenta à medida 
-  que o jogador avança no jogo, testando sua capacidade de memorização e 
-  agilidade mental.
+## ⚙️ Bibliotecas Desenvolvidas
+As seguintes bibliotecas foram **modificadas e otimizadas** a partir de bases existentes:
 
-  As bibliotecas utlizadas na criação do projeto foram modificadas a partir 
-  das bibliotecas dos projetistas que continham a matriz de LEDs e o joystick.
-  Algumas funcionalidades necessitaram de tratamento para que houvesse correspondencia 
-  afim de garantir a boa implementação do jogo em questão. 
+| Biblioteca Original | Adaptações Realizadas |
+|---------------------|-----------------------|
+| `LED_Matrix_Control` | - Implementação de gradientes coloridos<br>- Sincronização temporal com eventos sonoros |
+| `AudioPattern` | - Geração de tons musicais personalizados<br>- Eliminação de latência áudio-visual |
+| `GLED_Interface` | - Sistema de menus intuitivo<br>- Feedback visual em tempo real |
+
+### Melhorias Implementadas:
+✅ Tratamento de eventos simultâneos (luz+som)  
+✅ Calibração automática de temporização  
+✅ Sistema de fallback para erros de hardware
