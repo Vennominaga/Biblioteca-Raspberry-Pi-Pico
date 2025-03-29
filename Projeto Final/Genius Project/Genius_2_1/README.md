@@ -25,6 +25,9 @@ O **Genius Game** é um desafio interativo de memória que combina estímulos vi
 ## ⚙️ Bibliotecas Desenvolvidas
 As seguintes bibliotecas foram **modificadas e otimizadas** a partir de bases existentes:
 
+- MatriRBPi
+- JoystickPi
+
 
 
 ### Melhorias Implementadas:
