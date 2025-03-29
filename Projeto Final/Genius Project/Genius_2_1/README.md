@@ -25,11 +25,7 @@ O **Genius Game** é um desafio interativo de memória que combina estímulos vi
 ## ⚙️ Bibliotecas Desenvolvidas
 As seguintes bibliotecas foram **modificadas e otimizadas** a partir de bases existentes:
 
-| Biblioteca Original | Adaptações Realizadas |
-|---------------------|-----------------------|
-| `LED_Matrix_Control` | - Implementação de gradientes coloridos<br>- Sincronização temporal com eventos sonoros |
-| `AudioPattern` | - Geração de tons musicais personalizados<br>- Eliminação de latência áudio-visual |
-| `GLED_Interface` | - Sistema de menus intuitivo<br>- Feedback visual em tempo real |
+
 
 ### Melhorias Implementadas:
 ✅ Tratamento de eventos simultâneos (luz+som)  
