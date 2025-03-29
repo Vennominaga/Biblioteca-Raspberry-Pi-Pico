@@ -1,0 +1,29 @@
+# GENIUS GAME
+
+Uma breve descrição sobre o que o seu projeto faz.
+
+## Índice
+
+- [Sobre](#sobre)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Contribuindo](#contribuindo)
+- [Licença](#licença)
+
+## Sobre
+
+O Genius Game é um jogo interativo projetado para desafiar a memória 
+  e as habilidades cognitivas dos jogadores. Nele, os participantes 
+  devem memorizar e reproduzir sequências cada vez mais longas e 
+  complexas de cores e sons. O jogo utiliza uma matriz de LEDs RGB 
+  para criar padrões de cores visuais e um buzzer que emite sons em 
+  uma ordem específica, enquanto o display OLED fornece informações 
+  de navegação e instruções ao jogador. O objetivo principal é repetir 
+  corretamente a sequência apresentada, e a dificuldade aumenta à medida 
+  que o jogador avança no jogo, testando sua capacidade de memorização e 
+  agilidade mental.
+
+  As bibliotecas utlizadas na criação do projeto foram modificadas a partir 
+  das bibliotecas dos projetistas que continham a matriz de LEDs e o joystick.
+  Algumas funcionalidades necessitaram de tratamento para que houvesse correspondencia 
+  afim de garantir a boa implementação do jogo em questão. 
