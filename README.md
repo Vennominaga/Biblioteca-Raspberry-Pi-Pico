@@ -34,6 +34,9 @@ bitdoglab-raspberry-pico/
 │  
 └── projetos01/
     ├── genius/
+
+└── projeto Final/
+    ├── Genius/
 ```
 
 
@@ -49,7 +52,15 @@ bitdoglab-raspberry-pico/
 
 ## Projetos
 
+### Projeto Etapa 1
 Na pasta **projetos01**, você encontrará projetos que combinam várias bibliotecas para desenvolver aplicações completas. Um exemplo é o **jogo do Genius** (jogo das cores), que utiliza todas as bibliotecas desenvolvidas até o momento.
+
+### Projeto Etapa Final
+
+Na Pasta **Projeto Final**,você encontrará um projeto final que foi finalizado com base nas bibliotecas desenvolvidas e na implementação das bibliotecas de outros projetistas que foram compartilhadas como parte da atividade
+
+[Link da Biblioteca que Foi Compartilhada](https://github.com/MmonkeyBu/Joystick-Matriz-Painel.git)
+
 
 ## Como Usar
 
@@ -73,9 +84,7 @@ Utilize os recursos disponíveis para criar projetos inovadores. A biblioteca fo
 
 ## Contribuições
 
-Se encontrar erros ou tiver sugestões, por favor, compartilhe! Contribuições são sempre bem-vindas. Abra uma issue ou envie um pull request para ajudar a melhorar a biblioteca.
-
-!
+Se encontrar erros ou tiver sugestões, por favor, compartilhe! Contribuições são sempre bem-vindas. Abra uma issue ou envie um pull request para ajudar a melhorar a biblioteca.!
 
 ---
 
