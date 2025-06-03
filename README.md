@@ -10,7 +10,7 @@ projeto intitulado **Projeto 01**,Nele contém um jogo denominado Genius.
 
 # Estrutura (Etapa 02)
 
-Para a segunda etapa foi necessário verificar e utilizar as bibliotecas de outra dupla,repsonsável pela criação de biblioetcas referente a outros periféricos,com o inutito de validar as biblioetcas desenvodias pela outra dupla com o escopo da criação de um projeto final,que se encontra na pasta intitulada **Projeto Final** onde foi feita uma aprimoração do Projeto inicial se utilizando das bibliotecas testadas e validas nessa nova etapa.
+Para a segunda etapa foi necessário verificar e utilizar as bibliotecas de outra dupla, repsonsável pela criação de bibliotecas referente a outros periféricos,com o inutito de validar as bibliotecas desenvodias pela outra dupla com o escopo da criação de um projeto final, que se encontra na pasta intitulada **Projeto Final** onde foi feita uma aprimoração do Projeto inicial se utilizando das bibliotecas testadas e validas nessa nova etapa.
 
 
 O objetivo desta biblioteca é facilitar o uso de alguns periféricos com a placa Raspberry Pi Pico, desenvolvida pelo BitDogLab. Os periféricos suportados incluem **botão**, **joystick** e **buzzer**.
